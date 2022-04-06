@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+import static hu.nye.familyTree.People_Insert.addData;
 import static hu.nye.familyTree.People_Query.getInfo;
 
 public class Main {
@@ -28,6 +29,18 @@ public class Main {
             switch (menu){
                 case "1":{
                     getInfo();
+                    break;
+                }
+                case "2":{
+                    addData();
+                    break;
+                }
+                case "3":{
+
+                    break;
+                }
+                case "4":{
+
                     break;
                 }
                 case "5":{
